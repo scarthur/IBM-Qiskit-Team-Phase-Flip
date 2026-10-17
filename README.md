@@ -72,14 +72,14 @@ All two-qubit gate counts are measured after standard transpilation: `transpile(
 
 | Puzzle (N cubes) | Encoding | Device | Qubits | Two-qubit gates (after transpiling) | Depth | Shots | P(correct tower) | Random-guess baseline | qBraid job ID |
 |---|---|---|---|---|---|---|---|---|---|
-| 4 (Warm-up FB) | 3N W+XY (p=2) | `AerSimulator (local)` | 12 | 300 | 218 | 1000 | 28.2% (FB 2-factor) | 4.94% (4/81 W) | `local-aer` |
-| 4 (Core Full 24q) | 6N Double W+XY (p=2) | `AerSimulator (local)` | 24 | 648 | 224 | 2000 | 1.60% | 0.0305% (2/6561 W) / 0.000012% (2/2^24) | `local-aer` |
-| 4 (Core 2-Stage) | 12q W+XY (FB) + 4q QAOA (LR) | `AerSimulator (local)` | 12 + 4 | 300 + 12 | 218 + 29 | 1000 | 28.2% FB / 26.2% LR | 0.154% (2/1296 pairs) | `local-aer` |
-| 4 (CUBES) | 3N W+XY Disjoint/2-Stage (p=2) | `AerSimulator (local)` | 12 | 300 | 218 | 1000 | 28.20% (2-factor, solved=True) | 2.469% (2/3^N) / 0.1543% (2/6^N) | `local-aer` |
-| 5 (seed=16) | 3N W+XY Disjoint/2-Stage (p=2) | `AerSimulator (local)` | 15 | 384 | 254 | 1000 | 25.30% (2-factor, solved=True) | 0.823% (2/3^N) / 0.0257% (2/6^N) | `local-aer` |
-| 6 (seed=86) | 3N W+XY Disjoint/2-Stage (p=2) | `AerSimulator (local)` | 18 | 456 | 242 | 2000 | 8.60% (2-factor, solved=True) | 0.274% (2/3^N) / 0.0043% (2/6^N) | `local-aer` |
-| 7 (seed=68) | 3N W+XY Disjoint/2-Stage (p=2) | `AerSimulator (local)` | 21 | 556 | 332 | 4000 | 5.33% (2-factor, solved=True) | 0.091% (2/3^N) / 0.0007% (2/6^N) | `local-aer` |
-| 8 (seed=4) | 3N W+XY Disjoint/2-Stage (p=2) | `AerSimulator (local)` | 24 | 648 | 320 | 4000 | 4.28% (2-factor, solved=True) | 0.030% (2/3^N) / 0.0001% (2/6^N) | `local-aer` |
+| 4 (Warm-up FB) | 3N W+XY (p=12) | `AerSimulator (local)` | 12 | 1424 | 781 | 1000 | 89.9% (FB 2-factor) | 4.94% (4/81 W) | `local-aer` |
+| 4 (Core Full 24q) | 6N Double W+XY (p=12) | `AerSimulator (local)` | 24 | 3136 | 820 | 2000 | 19.55% | 0.0305% (2/6561 W) / 0.000012% (2/2^24) | `local-aer` |
+| 4 (Core 2-Stage) | 12q W+XY (FB) + 4q QAOA (LR) (p=12) | `AerSimulator (local)` | 12 + 4 | 1424 + 72 | 781 + 136 | 1000 | 89.9% FB / 92.1% LR | 0.154% (2/1296 pairs) | `local-aer` |
+| 4 (CUBES) | 3N W+XY Disjoint/2-Stage (p=12) | `AerSimulator (local)` | 12 | 1424 | 781 | 1000 | 89.90% (2-factor, solved=True) | 2.469% (2/3^N) / 0.1543% (2/6^N) | `local-aer` |
+| 5 (seed=16) | 3N W+XY Disjoint/2-Stage (p=12) | `AerSimulator (local)` | 15 | 1888 | 779 | 1000 | 93.00% (2-factor, solved=True) | 0.823% (2/3^N) / 0.0257% (2/6^N) | `local-aer` |
+| 6 (seed=86) | 3N W+XY Disjoint/2-Stage (p=12) | `AerSimulator (local)` | 18 | 2304 | 783 | 2000 | 51.70% (2-factor, solved=True) | 0.274% (2/3^N) / 0.0043% (2/6^N) | `local-aer` |
+| 7 (seed=68) | 3N W+XY Disjoint/2-Stage (p=12) | `AerSimulator (local)` | 21 | 2864 | 890 | 4000 | 45.75% (2-factor, solved=True) | 0.091% (2/3^N) / 0.0007% (2/6^N) | `local-aer` |
+| 8 (seed=4) | 3N W+XY Disjoint/2-Stage (p=12) | `AerSimulator (local)` | 24 | 3304 | 888 | 4000 | 45.40% (2-factor, solved=True) | 0.030% (2/3^N) / 0.0001% (2/6^N) | `local-aer` |
 
 ---
 
