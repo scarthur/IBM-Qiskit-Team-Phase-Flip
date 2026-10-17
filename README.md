@@ -1,7 +1,7 @@
 # Instant Insanity on a Quantum Computer
 ### UConn Fall Fest 2026 · IBM Qiskit & qBraid Challenge
 **Team Name:** Team Phase Flip (`IBM-Qiskit-Team-Phase-Flip`)  
-**Team Members:** Santiago Arthur ([@scarthur](https://github.com/scarthur)), Cınar TG ([@cinartg](https://github.com/cinartg))
+**Team Members:** Arthur ([@scarthur](https://github.com/scarthur)), Cınar ([@cinartg](https://github.com/cinartg))
 
 ---
 
