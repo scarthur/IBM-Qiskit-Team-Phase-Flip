@@ -1,7 +1,7 @@
 # Instant Insanity on a Quantum Computer
 ### UConn Fall Fest 2026 · IBM Qiskit & qBraid Challenge
 **Team Name:** Team Phase Flip (`IBM-Qiskit-Team-Phase-Flip`)  
-**Team Members:** Santiago Arthur ([@scarthur](https://github.com/scarthur)), Çınar TG ([@cinartg](https://github.com/cinartg))
+**Team Members:** Santiago Arthur ([@scarthur](https://github.com/scarthur)), Cınar TG ([@cinartg](https://github.com/cinartg))
 
 ---
 
@@ -105,7 +105,7 @@ As emphasized by the grading rubric (*checks before claims*):
 ## AI Use Note
 
 In accordance with Deliverable 5 and the challenge guidelines:
-- **Tools Used:** We utilized **Argon** (and the Antigravity pair-programming agent).
+- **Tools Used:** We utilized **Argon & Claude** (paired with Antigravity and CC CLI).
 - **Application Areas:**
   1. *Encoding & Circuit Synthesis:* Structuring the $W$-state preparation circuit and $XX+YY$ parameterization for preserving the 1-hot constraint per cube, eliminating infeasible Hamming weights.
   2. *Hamiltonian Formulation:* Translating the $N$-cube graph-degree matching penalties into Pauli operator representations for both one-hot and two-stage decompositions.
